@@ -20,7 +20,7 @@ total_love = letter_l + letter_o + letter_v + letter_e
 
 score = int(f"{total_true}{total_love}")
 
-if score <= 10 or score > 90:
+if score < 10 or score > 90:
  print(f"Your score is {score}, you go together like coke and mentos.")
 elif score >= 40 and score <= 50:
  print(f"Your score is {score}, you are alright together.")
